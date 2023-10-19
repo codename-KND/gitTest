@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run Postman Tests') {
             steps {
-                sh 'newman run Dog API Test.postman_collection.json'
+                sh 'newman run "Dog API Test.postman_collection.json"'
             }
         }
     }

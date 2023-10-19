@@ -22,7 +22,7 @@ pipeline {
                 allowMissing: true,
                 alwaysLinkToLastBuild: false,
                 keepAll: true,
-                reportDir: 'workspace',
+                reportDir: '',
                 reportFiles: 'index.html',
             ]
            

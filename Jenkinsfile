@@ -18,7 +18,7 @@ pipeline {
 
     post {
         success {
-            archiveArtifacts artifacts: '**/newman/**', allowEmptyArchive: true
+           
             publishHTML target: [
                 allowMissing: false,
                 alwaysLinkToLastBuild: false,

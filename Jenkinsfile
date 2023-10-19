@@ -18,6 +18,13 @@ pipeline {
 
     post {
         success {
+            publishHTML target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: false,
+                keepAll: true,
+                reportDir: 'newman',
+                reportFiles: 'index.html',
+            ]
            
 
         }

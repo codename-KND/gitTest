@@ -22,7 +22,7 @@ pipeline {
                 allowMissing: false,
                 alwaysLinkToLastBuild: false,
                 keepAll: true,
-                reportDir: 'C:\Users\L3NY\AppData\Local\Jenkins\.jenkins\workspace',
+                reportDir: 'workspace',
                 reportFiles: 'index.html',
             ]
            

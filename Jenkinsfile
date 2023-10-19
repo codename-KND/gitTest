@@ -16,17 +16,6 @@ pipeline {
         }
     }
 
-    post {
-        success {
-            publishHTML target: [
-                allowMissing: true,
-                alwaysLinkToLastBuild: false,
-                keepAll: true,
-                reportDir: '',
-                reportFiles: 'index.html',
-            ]
-           
-
-        }
+   
     }
 }

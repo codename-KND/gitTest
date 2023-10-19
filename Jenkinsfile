@@ -19,7 +19,7 @@ pipeline {
     post {
         success {
             publishHTML target: [
-                allowMissing: false,
+                allowMissing: true,
                 alwaysLinkToLastBuild: false,
                 keepAll: true,
                 reportDir: 'workspace',
